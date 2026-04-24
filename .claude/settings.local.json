@@ -20,7 +20,8 @@
       "WebFetch(domain:raw.githubusercontent.com)",
       "WebFetch(domain:github.com)",
       "WebFetch(domain:cdn.21st.dev)",
-      "Bash(git config *)"
+      "Bash(git config *)",
+      "WebFetch(domain:danielvillero.netlify.app)"
     ]
   }
 }
