@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daniel Villero | Graphic Designer & Photographer</title>
+    <!-- Link to the CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NAVIGATION MENU -->
+    <nav class="floating-menu">
+        <a href="#bio" class="menu-link active">Bio</a>
+        <a href="#education" class="menu-link">Education</a>
+        <a href="#portfolio" class="menu-link">Portfolio</a>
+        <a href="#skills" class="menu-link">Skills</a>
+        <a href="#contact" class="menu-link">Contact</a>
+    </nav>
+
+    <!-- SECTION 1: BIO -->
+    <section id="bio">
+        <div class="bio-container">
+            
+            <!-- Left: Name & Socials -->
+            <div class="bio-left">
+                <!-- Added anim classes for staggered entry -->
+                <div class="bio-name anim-right delay-1">Daniel<br>Villero.</div>
+                <div class="accent-line anim-right delay-2"></div>
+                
+                <div class="social-icons anim-right delay-3">
+                    <!-- Instagram Icon -->
+                    <a href="https://www.instagram.com/danielvillero/?hl=en" target="_blank" rel="noopener noreferrer" class="social-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                    </a>
+                    <!-- LinkedIn Icon -->
+                    <a href="https://www.linkedin.com/in/danielvillero/" target="_blank" rel="noopener noreferrer" class="social-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Center: Image -->
+            <div class="bio-center">
+                <div class="profile-img-container anim-right delay-4">
+                    <img src="img/Profile-Image.png" alt="Daniel Villero" class="profile-img">
+                </div>
+            </div>
+
+            <!-- Right: Intro -->
+            <div class="bio-right">
+                <div class="eyebrow anim-right delay-5">Introduction</div>
+                <h2 class="bio-headline anim-right delay-6">Graphic Designer<br>& Photographer</h2>
+                <p class="bio-text anim-right delay-7">
+                    I am a multifaceted Designer bringing 7+ years of expertise in crafting engaging digital experiences and compelling visual narratives across web, graphic, video, and photography. I will help to transform complex ideas into aesthetic designs and effective marketing collateral. Adept at leveraging AI-driven tools (ChatGPT, Midjourney, Imagen) to streamline creative workflows and elevate brand impact.
+                </p>
+                <div class="anim-right delay-8">
+                    <a href="#portfolio" class="my-story-link">My work &rarr;</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- SECTION 2: EDUCATION -->
+    <section id="education" class="edu-carousel">
+
+        <!-- SLIDE 1: University of Toronto -->
+        <div class="edu-slide active">
+            <img src="https://abroadin.com/blog/wp-content/uploads/elementor/thumbs/uoft-r7p0aqu3y3d4pfj4mhwx1yb5h3gxcmntapfxvjvl3c.png" alt="University of Toronto" class="edu-slide-bg">
+            <div class="edu-slide-gradient"></div>
+            <div class="edu-slide-content">
+                <div class="edu-eyebrow">Bachelor's Degree</div>
+                <h2 class="edu-degree">New Media Studies</h2>
+                <p class="edu-school">University of Toronto &middot; 2011 – 2015</p>
+                <div class="edu-slide-desc">
+                    <p>An interdisciplinary program at the intersection of technology, media, and design. Developed a strong foundation in digital communication, user experience, and the evolving landscape of digital media production.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- SLIDE 2: Humber College -->
+        <div class="edu-slide">
+            <img src="https://i.ytimg.com/vi/GNByTtPlM4s/maxresdefault.jpg" alt="Humber College" class="edu-slide-bg">
+            <div class="edu-slide-gradient"></div>
+            <div class="edu-slide-content">
+                <div class="edu-eyebrow">Diploma</div>
+                <h2 class="edu-degree">Creative Photography</h2>
+                <p class="edu-school">Humber College &middot; 2015 – 2017</p>
+                <div class="edu-slide-desc">
+                    <p>Hands-on training in portrait, product, and event photography. Mastered studio lighting, post-production workflows in Adobe Lightroom &amp; Photoshop, and the technical craft behind compelling visual storytelling.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- SLIDE 3: Schulich School of Business -->
+        <div class="edu-slide">
+            <img src="https://transglobaloverseas.com/wp-content/uploads/2024/03/Schulich-School-of-Business-1024x808-1.webp" alt="Schulich School of Business" class="edu-slide-bg">
+            <div class="edu-slide-gradient"></div>
+            <div class="edu-slide-content">
+                <div class="edu-eyebrow">Master's Degree</div>
+                <h2 class="edu-degree">Masters of Marketing</h2>
+                <p class="edu-school">Schulich School of Business &middot; 2020 – 2021</p>
+                <div class="edu-slide-desc">
+                    <p>An accelerated master's program focused on brand strategy, consumer behaviour, and data-driven marketing. Applied advanced frameworks to real-world campaigns, digital analytics, and integrated marketing communications.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- CONTROL PANEL -->
+        <div class="edu-controls">
+            <button class="edu-btn active" data-index="0">
+                <span class="edu-btn-label">University of Toronto</span>
+                <div class="edu-progress"><div class="edu-progress-fill"></div></div>
+            </button>
+            <button class="edu-btn" data-index="1">
+                <span class="edu-btn-label">Humber College</span>
+                <div class="edu-progress"><div class="edu-progress-fill"></div></div>
+            </button>
+            <button class="edu-btn" data-index="2">
+                <span class="edu-btn-label">Schulich School of Business</span>
+                <div class="edu-progress"><div class="edu-progress-fill"></div></div>
+            </button>
+        </div>
+
+    </section>
+
+    <!-- SECTION 3: PORTFOLIO -->
+    <section id="portfolio" class="portfolio-wrapper">
+        
+        <!-- LEFT PANEL -->
+        <div class="left-panel" id="leftPanel">
+            <div class="spacer"></div>
+
+            <!-- CARD 1: PinMart -->
+            <div class="experience-card" data-target="gallery1">
+                <div class="card-header">
+                    <div class="logo-area">
+                        <a href="https://www.pinmart.com" target="_blank" rel="noopener noreferrer" class="company-link">PinMart Inc.</a>
+                    </div>
+                    <div class="date-badge">Jun 2024 - now</div>
+                </div>
+                <div class="role-title">Graphic Designer & Digital Marketing Assistant</div>
+                <div class="job-details">
+                    <ul>
+                        <li>Design 50+ custom emblems weekly, adhering to the intricacies of metal emblematic design.</li>
+                        <li>Plan and execute Pinterest paid campaigns, consistently achieving a return on ad spend above 10x.</li>
+                        <li>Capture and edit product photography and video for website and social media use.</li>
+                        <li>Leverage AI tools (ChatGPT, Midjourney, Imagen, Veo) to conceptualize and produce content for organic and paid social media campaigns.</li>
+                        <li>Develop and maintain social media organic content calendar.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- CARD 2: Kodiak Sciences -->
+            <div class="experience-card" data-target="gallery2">
+                <div class="card-header">
+                    <div class="logo-area">
+                        <a href="https://www.kodiak.com" target="_blank" rel="noopener noreferrer" class="company-link">Kodiak Sciences Inc.</a>
+                    </div>
+                    <div class="date-badge">Feb 2023 - now</div>
+                </div>
+                <div class="role-title">UX/UI & Graphic Designer</div>
+                <div class="job-details">
+                    <ul>
+                        <li>Design illustrations, graphics, charts and animations to support Kodiak Sciences' digital platforms and other corporate initiatives.</li>
+                        <li>Maintain Kodiak’s corporate website via WordPress staged environments with a focus on developing and implementing UX/UI elements for web applications, ensuring seamless integration and user experience.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- CARD 3: Frontenac Arch Biosphere -->
+            <div class="experience-card" data-target="gallery3">
+                <div class="card-header">
+                    <div class="logo-area">
+                        <a href="https://frontenacarchbiosphere.ca/" target="_blank" rel="noopener noreferrer" class="company-link">Frontenac Arch Biosphere</a>
+                    </div>
+                    <div class="date-badge">Sep 2022 - Jul 2023</div>
+                </div>
+                <div class="role-title">Marketing Coordinator</div>
+                <div class="job-details">
+                    <ul>
+                        <li>Develop branding and marketing strategy, defining audience, value proposition, and positioning across social media, Google Ads, radio, and TV.</li>
+                        <li>Produce Graphic content and video assets for paid campaigns using Adobe Suite and Canva.</li>
+                        <li>Drive 5,000+ unique website visitors in the first month through strategic SEO and paid marketing.</li>
+                        <li>In charge of developing shot list, script, contacting and organizing talent for the development of videos for the "Travel Proud" campaign.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- CARD 4: Humber College -->
+            <div class="experience-card" data-target="gallery4">
+                <div class="card-header">
+                    <div class="logo-area">
+                        <a href="https://liberalarts.humber.ca/" target="_blank" rel="noopener noreferrer" class="company-link">Humber College</a>
+                    </div>
+                    <div class="date-badge">Sep 2018 - Sep 2021</div>
+                </div>
+                <div class="role-title">Digital Marketing Assistant</div>
+                <div class="job-details">
+                    <ul>
+                        <li>Support the creation and delivery of digital content that increases Humber student's awareness of services, support and resources available to them.</li>
+                        <li>Provide support for digital media requests from across the Faculty of Arts and Liberal Arts (FLA).</li>
+                        <li>Develop and execute social media strategy for FLA.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- CARD 5: Mosaix Studios -->
+            <div class="experience-card" data-target="gallery5">
+                <div class="card-header">
+                    <div class="logo-area">
+                        <a href="https://www.instagram.com/mosaix.studios/?hl=en" target="_blank" rel="noopener noreferrer" class="company-link">Mosaix Studios</a>
+                    </div>
+                    <div class="date-badge">Nov 2014 - Feb 2023</div>
+                </div>
+                <div class="role-title">Head Photographer</div>
+                <div class="job-details">
+                    <ul>
+                        <li>Founder of Mosaix Studios, a production company specializing in coverage of weddings, engagements, and special events.</li>
+                        <li>Responsible for marketing, hiring of staff, shooting, editing, and distributing visual content for clients.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="spacer"></div>
+        </div>
+
+        <!-- RIGHT PANEL -->
+        <div class="right-panel">
+            <div class="bg-blur-layer" id="bgBlurLayer"></div>
+
+            <!-- BUTTONS -->
+            <div class="nav-btn prev-btn" id="prevBtn">←</div>
+            <div class="nav-btn next-btn" id="nextBtn">→</div>
+
+            <!-- GALLERIES -->
+            <div class="gallery-container" id="gallery1">
+                <img src="img/PinMart/Color-Pin-1080x1920.jpg" class="gallery-img" data-title="Color Pin Series" data-desc="Custom enamel pin design for PinMart.">
+                <img src="img/PinMart/Travel-Patch-1-1080x1080_Text.jpg" class="gallery-img" data-title="Travel Patch" data-desc="Embroidered patch design for the travel collection.">
+                <img src="img/PinMart/Woah-Patch-1x1_Overlay1.jpg" class="gallery-img" data-title="Woah Patch" data-desc="Patch design with branded overlay.">
+                <img src="img/PinMart/Rose-Patch-9x16_Overlay1.jpg" class="gallery-img" data-title="Rose Patch" data-desc="Rose patch design with branded overlay.">
+                <img src="img/PinMart/PrideWeek1_1080x1920Tagline.jpg" class="gallery-img" data-title="Pride Week Campaign" data-desc="Social media campaign creative for Pride Week.">
+                <img src="img/PinMart/July 4th_1080x1080.jpg" class="gallery-img" data-title="4th of July Campaign" data-desc="Holiday social media post for 4th of July.">
+                <img src="img/PinMart/PinMart-Dessert-Organic_1080x1920_Text.jpg" class="gallery-img" data-title="Dessert Collection" data-desc="Organic-themed product campaign creative.">
+                <img src="img/PinMart/Mothers Day.jpg" class="gallery-img" data-title="Mother's Day Campaign" data-desc="">
+                <img src="img/PinMart/Nurse Day.jpg" class="gallery-img" data-title="Nurse Day Campaign" data-desc="">
+                <img src="img/PinMart/Pin on collars.png" class="gallery-img" data-title="Pin on Collars" data-desc="">
+                <video src="img/PinMart/S194.mp4" class="gallery-video" data-title="Product Video" autoplay muted loop playsinline></video>
+                <video src="img/PinMart/Amazon Ukraine Flag 20 seconds.mp4" class="gallery-video" data-title="Amazon Ukraine Flag" autoplay muted loop playsinline></video>
+                <video src="img/PinMart/80996030-4d62-4786-93c8-6af2b0d0b1b5.mp4" class="gallery-video" data-title="Product Video" autoplay muted loop playsinline></video>
+            </div>
+
+            <div class="gallery-container" id="gallery2">
+                <img src="img/Kodiak/Kodiak Portfolio Page 1.png" class="gallery-img" data-title="Kodiak Portfolio 1" data-desc="">
+                <img src="img/Kodiak/Kodiak Portfolio Page 2.png" class="gallery-img" data-title="Kodiak Portfolio 2" data-desc="">
+                <img src="img/Kodiak/Kodiak Portfolio Page 3.png" class="gallery-img" data-title="Kodiak Portfolio 3" data-desc="">
+                <img src="img/Kodiak/Kodiak Portfolio Page 4.png" class="gallery-img" data-title="Kodiak Portfolio 4" data-desc="">
+                <img src="img/Kodiak/Kodiak Portfolio Page 5.png" class="gallery-img" data-title="Kodiak Portfolio 5" data-desc="">
+                <img src="img/Kodiak/Kodiak Portfolio Page 6.png" class="gallery-img" data-title="Kodiak Portfolio 6" data-desc="">
+                <img src="img/Kodiak/Kodiak Portfolio Page 7.png" class="gallery-img" data-title="Kodiak Portfolio 7" data-desc="">
+                <img src="img/Kodiak/Kodiak Portfolio Page 8.png" class="gallery-img" data-title="Kodiak Portfolio 8" data-desc="">
+                <img src="img/Kodiak/Kodiak Portfolio Page 9.png" class="gallery-img" data-title="Kodiak Portfolio 9" data-desc="">
+                <img src="img/Kodiak/Kodiak Portfolio Page 10.png" class="gallery-img" data-title="Kodiak Portfolio 10" data-desc="">
+                <img src="img/Kodiak/Kodiak Portfolio Page 11.png" class="gallery-img" data-title="Kodiak Portfolio 11" data-desc="">
+            </div>
+
+            <div class="gallery-container" id="gallery3">
+                <div class="gallery-yt-item" data-youtube="fbXJQ6LhtNI" data-title="Frontenac Arch Biosphere">
+                    <img src="https://img.youtube.com/vi/fbXJQ6LhtNI/maxresdefault.jpg" alt="Frontenac Arch Biosphere Video">
+                    <div class="yt-overlay">
+                        <svg width="68" height="48" viewBox="0 0 68 48">
+                            <path d="M66.52 7.74c-.78-2.93-2.49-5.41-5.42-6.19C55.79.13 34 0 34 0S12.21.13 6.9 1.55c-2.93.78-4.63 3.26-5.42 6.19C.06 13.05 0 24 0 24s.06 10.95 1.48 16.26c.78 2.93 2.49 5.41 5.42 6.19C12.21 47.87 34 48 34 48s21.79-.13 27.1-1.55c2.93-.78 4.64-3.26 5.42-6.19C67.94 34.95 68 24 68 24s-.06-10.95-1.48-16.26z" fill="#ff0000"/>
+                            <path d="M 45,24 27,14 27,34" fill="#fff"/>
+                        </svg>
+                    </div>
+                </div>
+                <div class="gallery-yt-item" data-youtube="Uo4GIM2VjUQ" data-title="Travel Proud Campaign">
+                    <img src="https://img.youtube.com/vi/Uo4GIM2VjUQ/maxresdefault.jpg" alt="Travel Proud Campaign">
+                    <div class="yt-overlay">
+                        <svg width="68" height="48" viewBox="0 0 68 48">
+                            <path d="M66.52 7.74c-.78-2.93-2.49-5.41-5.42-6.19C55.79.13 34 0 34 0S12.21.13 6.9 1.55c-2.93.78-4.63 3.26-5.42 6.19C.06 13.05 0 24 0 24s.06 10.95 1.48 16.26c.78 2.93 2.49 5.41 5.42 6.19C12.21 47.87 34 48 34 48s21.79-.13 27.1-1.55c2.93-.78 4.64-3.26 5.42-6.19C67.94 34.95 68 24 68 24s-.06-10.95-1.48-16.26z" fill="#ff0000"/>
+                            <path d="M 45,24 27,14 27,34" fill="#fff"/>
+                        </svg>
+                    </div>
+                </div>
+                <div class="gallery-yt-item" data-youtube="9YzYiMF8l1g" data-title="Travel Proud Campaign">
+                    <img src="https://img.youtube.com/vi/9YzYiMF8l1g/maxresdefault.jpg" alt="Travel Proud Campaign">
+                    <div class="yt-overlay">
+                        <svg width="68" height="48" viewBox="0 0 68 48">
+                            <path d="M66.52 7.74c-.78-2.93-2.49-5.41-5.42-6.19C55.79.13 34 0 34 0S12.21.13 6.9 1.55c-2.93.78-4.63 3.26-5.42 6.19C.06 13.05 0 24 0 24s.06 10.95 1.48 16.26c.78 2.93 2.49 5.41 5.42 6.19C12.21 47.87 34 48 34 48s21.79-.13 27.1-1.55c2.93-.78 4.64-3.26 5.42-6.19C67.94 34.95 68 24 68 24s-.06-10.95-1.48-16.26z" fill="#ff0000"/>
+                            <path d="M 45,24 27,14 27,34" fill="#fff"/>
+                        </svg>
+                    </div>
+                </div>
+                <div class="gallery-yt-item" data-youtube="cE1_HxZBbxk" data-title="Travel Proud Campaign">
+                    <img src="https://img.youtube.com/vi/cE1_HxZBbxk/maxresdefault.jpg" alt="Travel Proud Campaign">
+                    <div class="yt-overlay">
+                        <svg width="68" height="48" viewBox="0 0 68 48">
+                            <path d="M66.52 7.74c-.78-2.93-2.49-5.41-5.42-6.19C55.79.13 34 0 34 0S12.21.13 6.9 1.55c-2.93.78-4.63 3.26-5.42 6.19C.06 13.05 0 24 0 24s.06 10.95 1.48 16.26c.78 2.93 2.49 5.41 5.42 6.19C12.21 47.87 34 48 34 48s21.79-.13 27.1-1.55c2.93-.78 4.64-3.26 5.42-6.19C67.94 34.95 68 24 68 24s-.06-10.95-1.48-16.26z" fill="#ff0000"/>
+                            <path d="M 45,24 27,14 27,34" fill="#fff"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+
+            <div class="gallery-container" id="gallery4">
+                <img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600&auto=format&fit=crop" class="gallery-img" data-title="Student Engagement" data-desc="Digital content for student services.">
+                <img src="https://images.unsplash.com/photo-1531403009284-440f080d1e12?q=80&w=600&auto=format&fit=crop" class="gallery-img" data-title="Digital Media Support" data-desc="Supporting the Faculty of Arts.">
+                <img src="https://images.unsplash.com/photo-1611162617474-5b21e879e113?q=80&w=600&auto=format&fit=crop" class="gallery-img" data-title="Social Strategy" data-desc="Social media planning and execution.">
+            </div>
+
+            <div class="gallery-container" id="gallery5">
+                <img src="img/Mosaix Studios/wedding couple by water.png" class="gallery-img" data-title="Wedding by the Water" data-desc="">
+                <img src="img/Mosaix Studios/wedding couple dock sunset.png" class="gallery-img" data-title="Dock Sunset" data-desc="">
+                <img src="img/Mosaix Studios/wedding couple green field.png" class="gallery-img" data-title="Green Field" data-desc="">
+                <img src="img/Mosaix Studios/wedding couple misty veil.png" class="gallery-img" data-title="Misty Veil" data-desc="">
+                <img src="img/Mosaix Studios/wedding couple walking lakeside.png" class="gallery-img" data-title="Lakeside Walk" data-desc="">
+                <img src="img/Mosaix Studios/wedding veil blowing wind.png" class="gallery-img" data-title="Veil in the Wind" data-desc="">
+                <img src="img/Mosaix Studios/couple under willow sunset.png" class="gallery-img" data-title="Under the Willow" data-desc="">
+                <img src="img/Mosaix Studios/couple urban golden hour.png" class="gallery-img" data-title="Urban Golden Hour" data-desc="">
+                <img src="img/Mosaix Studios/couple walking sunset field.png" class="gallery-img" data-title="Sunset Field" data-desc="">
+                <img src="img/Mosaix Studios/couple beach hug.png" class="gallery-img" data-title="Beach Hug" data-desc="">
+                <img src="img/Mosaix Studios/couple farmhouse embrace.png" class="gallery-img" data-title="Farmhouse Embrace" data-desc="">
+                <img src="img/Mosaix Studios/couple night bokeh bw.png" class="gallery-img" data-title="Night Bokeh" data-desc="">
+                <img src="img/Mosaix Studios/couple silhouette holding hands bw.png" class="gallery-img" data-title="Silhouette" data-desc="">
+                <img src="img/Mosaix Studios/couple silhouette lift bw.png" class="gallery-img" data-title="Silhouette Lift" data-desc="">
+                <img src="img/Mosaix Studios/Engagement Session - barn doorway.png" class="gallery-img" data-title="Barn Doorway" data-desc="">
+                <img src="img/Mosaix Studios/Engagement Session - barn doorway2.png" class="gallery-img" data-title="Barn Doorway II" data-desc="">
+                <img src="img/Mosaix Studios/woman gold lace veil.png" class="gallery-img" data-title="Gold Lace Veil" data-desc="">
+                <img src="img/Mosaix Studios/woman armchair lamp.png" class="gallery-img" data-title="Armchair Portrait" data-desc="">
+                <img src="img/Mosaix Studios/woman blonde athletic bw.png" class="gallery-img" data-title="Athletic Portrait" data-desc="">
+                <img src="img/Mosaix Studios/woman blonde eyes closed bw.png" class="gallery-img" data-title="Eyes Closed" data-desc="">
+                <img src="img/Mosaix Studios/woman braids bw portrait.png" class="gallery-img" data-title="Braids Portrait" data-desc="">
+                <img src="img/Mosaix Studios/fitness man bw portrait.png" class="gallery-img" data-title="Fitness Portrait" data-desc="">
+                <img src="img/Mosaix Studios/panamsports trainer lawrence.png" class="gallery-img" data-title="PanAm Sports — Lawrence" data-desc="">
+                <img src="img/Mosaix Studios/panamsports trainer noelle.png" class="gallery-img" data-title="PanAm Sports — Noelle" data-desc="">
+                <img src="img/Mosaix Studios/flower in lightbulb.png" class="gallery-img" data-title="Flower in Lightbulb" data-desc="">
+                <img src="img/Mosaix Studios/apothic red wine bottle.png" class="gallery-img" data-title="Apothic Red — Product" data-desc="">
+                <img src="img/Mosaix Studios/tory burch perfume Humber Project.png" class="gallery-img" data-title="Tory Burch Perfume" data-desc="">
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 4: SKILLS -->
+    <section id="skills">
+        <div class="skills-wrapper">
+
+            <div class="skills-header">
+                <h2 class="skills-title">Tools &amp; Skills</h2>
+                <p class="skills-desc">A versatile toolkit built over 7+ years of creative and digital work.</p>
+            </div>
+
+            <div class="logo-carousel" id="logoCarousel">
+                <div class="carousel-col" data-col="0"></div>
+                <div class="carousel-col" data-col="1"></div>
+                <div class="carousel-col" data-col="2"></div>
+            </div>
+
+            <div class="skills-languages">
+                <span class="lang-globe">🌐</span>
+                <div class="lang-row">
+                    <span>English</span>
+                    <span class="lang-sep">·</span>
+                    <span>Spanish</span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- SECTION 5: CONTACT -->
+    <section id="contact">
+        <div class="contact-wrapper">
+            <h2 class="contact-title">Get in touch</h2>
+            <p class="contact-desc">
+                Have a project in mind? Whether it's brand identity, web design, photography, motion graphics, or AI-driven creative workflows — I'd love to hear about it. Let's build something exceptional together.
+            </p>
+
+            <form class="contact-form" action="mailto:daniel.h.villeo@gmail.com" method="post" enctype="text/plain">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="contact-name">Name</label>
+                        <input type="text" id="contact-name" name="Name" placeholder="Your full name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="contact-phone">Phone</label>
+                        <input type="tel" id="contact-phone" name="Phone" placeholder="+1 (555) 000-0000">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="contact-email">Email</label>
+                    <input type="email" id="contact-email" name="Email" placeholder="your@email.com" required>
+                </div>
+                <div class="form-group">
+                    <label for="contact-message">Message</label>
+                    <textarea id="contact-message" name="Message" placeholder="Tell me about your project..." required></textarea>
+                </div>
+                <button type="submit" class="contact-cta-btn">
+                    <span>Send message</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                </button>
+            </form>
+
+            <div class="contact-socials">
+                <a href="https://www.linkedin.com/in/danielvillero/" target="_blank" rel="noopener noreferrer" class="contact-social-link">LinkedIn</a>
+                <span class="contact-social-sep">·</span>
+                <a href="https://www.instagram.com/danielvillero/?hl=en" target="_blank" rel="noopener noreferrer" class="contact-social-link">Instagram</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- IMAGE MODAL -->
+    <div class="modal-overlay" id="modalOverlay">
+        <div class="modal-content">
+            <button class="close-modal" id="closeModal">&times;</button>
+            <div class="modal-image-wrapper">
+                <img src="" alt="Project Detail" class="modal-img" id="modalImg">
+            </div>
+            <div class="modal-text">
+                <h3 id="modalTitle">Project Title</h3>
+                <p id="modalDesc">Project description goes here.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- VIDEO MODAL -->
+    <div class="modal-overlay" id="videoModalOverlay">
+        <div class="modal-content video-modal-content">
+            <button class="close-modal" id="closeVideoModal">&times;</button>
+            <div class="video-modal-wrapper">
+                <video id="modalVideo"></video>
+            </div>
+            <div class="video-controls">
+                <button class="vc-btn" id="vcBack" title="Back 10 seconds">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="1 4 1 10 7 10"></polyline><path d="M3.51 15a9 9 0 1 0 .49-3.62"></path></svg>
+                    <span class="vc-label">10</span>
+                </button>
+                <button class="vc-btn vc-play-btn" id="vcPlay">
+                    <svg class="icon-play" width="22" height="22" viewBox="0 0 24 24" fill="currentColor" stroke="none"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+                    <svg class="icon-pause" width="22" height="22" viewBox="0 0 24 24" fill="currentColor" stroke="none" style="display:none"><rect x="6" y="4" width="4" height="16"></rect><rect x="14" y="4" width="4" height="16"></rect></svg>
+                </button>
+                <button class="vc-btn" id="vcFwd" title="Forward 10 seconds">
+                    <span class="vc-label">10</span>
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 4 23 10 17 10"></polyline><path d="M20.49 15a9 9 0 1 1-.49-3.62"></path></svg>
+                </button>
+                <div class="vc-separator"></div>
+                <button class="vc-btn vc-mute-btn" id="vcMute" title="Toggle mute">
+                    <svg class="icon-vol-on" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><path d="M19.07 4.93a10 10 0 0 1 0 14.14"></path><path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path></svg>
+                    <svg class="icon-vol-off" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display:none"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><line x1="23" y1="9" x2="17" y2="15"></line><line x1="17" y1="9" x2="23" y2="15"></line></svg>
+                </button>
+            </div>
+            <div class="modal-text">
+                <h3 id="videoModalTitle"></h3>
+            </div>
+        </div>
+    </div>
+
+    <!-- YOUTUBE MODAL -->
+    <div class="modal-overlay" id="ytModalOverlay">
+        <div class="modal-content yt-modal-content">
+            <button class="close-modal" id="closeYtModal">&times;</button>
+            <div class="yt-modal-wrapper">
+                <iframe id="ytIframe" src="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="modal-text">
+                <h3 id="ytModalTitle"></h3>
+            </div>
+        </div>
+    </div>
+
+    <!-- Link to the JS file -->
+    <script src="script.js"></script>
+</body>
+</html>
