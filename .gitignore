@@ -1,4 +1,8 @@
 .DS_Store
 **/.DS_Store
 *.mp4
+*.tiff
 *.pdf
+!img/files/*.pdf
+.claude/settings.local.json
+sync_cloudinary.py

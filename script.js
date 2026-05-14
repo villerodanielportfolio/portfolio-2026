@@ -387,6 +387,20 @@ eduBtns.forEach(btn => {
 
 eduAnimFrame = requestAnimationFrame(eduTick);
 
+const eduPdfPanel = document.querySelector('.edu-pdf-panel');
+if (eduPdfPanel) {
+    eduPdfPanel.addEventListener('mouseenter', () => {
+        cancelAnimationFrame(eduAnimFrame);
+        eduLastTimestamp = null;
+    });
+    eduPdfPanel.addEventListener('mouseleave', () => {
+        if (eduPausedByBtn === -1) {
+            eduLastTimestamp = null;
+            eduAnimFrame = requestAnimationFrame(eduTick);
+        }
+    });
+}
+
 
 // --- 5. LOGO CAROUSEL (SKILLS) ---
 (function initLogoCarousel() {
@@ -485,7 +499,7 @@ eduAnimFrame = requestAnimationFrame(eduTick);
     const INTERVAL = 2200;
     const STAGGER  = 380;
 
-    colEls.forEach((col, i) => {
+    colEls.forEach((_col, i) => {
         setTimeout(() => setInterval(() => cycleCol(i), INTERVAL), i * STAGGER + INTERVAL);
     });
 })();
