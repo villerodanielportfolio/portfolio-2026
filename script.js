@@ -274,28 +274,14 @@ ytModalOverlay.addEventListener('click', (e) => {
 });
 
 
-// --- PDF MODAL ---
-const pdfModalOverlay  = document.getElementById('pdfModalOverlay');
-const pdfIframe        = document.getElementById('pdfIframe');
-const pdfModalTitle    = document.getElementById('pdfModalTitle');
-const closePdfModalBtn = document.getElementById('closePdfModal');
-
+// --- PDF ITEMS — open thumbnail in image modal ---
 document.querySelectorAll('.gallery-pdf-item').forEach(item => {
     item.addEventListener('click', () => {
-        pdfIframe.src = item.getAttribute('data-pdf');
-        pdfModalTitle.textContent = item.getAttribute('data-title') || 'Document';
-        pdfModalOverlay.classList.add('active');
+        modalImg.src = item.querySelector('.pdf-thumb-img').getAttribute('src');
+        modalTitle.textContent = item.getAttribute('data-title') || 'Document';
+        modalDesc.textContent = '';
+        modalOverlay.classList.add('active');
     });
-});
-
-function hidePdfModal() {
-    pdfModalOverlay.classList.remove('active');
-    pdfIframe.src = '';
-}
-
-closePdfModalBtn.addEventListener('click', hidePdfModal);
-pdfModalOverlay.addEventListener('click', (e) => {
-    if (e.target === pdfModalOverlay) hidePdfModal();
 });
 
 
