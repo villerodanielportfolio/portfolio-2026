@@ -274,6 +274,31 @@ ytModalOverlay.addEventListener('click', (e) => {
 });
 
 
+// --- PDF MODAL ---
+const pdfModalOverlay  = document.getElementById('pdfModalOverlay');
+const pdfIframe        = document.getElementById('pdfIframe');
+const pdfModalTitle    = document.getElementById('pdfModalTitle');
+const closePdfModalBtn = document.getElementById('closePdfModal');
+
+document.querySelectorAll('.gallery-pdf-item').forEach(item => {
+    item.addEventListener('click', () => {
+        pdfIframe.src = item.getAttribute('data-pdf');
+        pdfModalTitle.textContent = item.getAttribute('data-title') || 'Document';
+        pdfModalOverlay.classList.add('active');
+    });
+});
+
+function hidePdfModal() {
+    pdfModalOverlay.classList.remove('active');
+    pdfIframe.src = '';
+}
+
+closePdfModalBtn.addEventListener('click', hidePdfModal);
+pdfModalOverlay.addEventListener('click', (e) => {
+    if (e.target === pdfModalOverlay) hidePdfModal();
+});
+
+
 // --- 3b. BACKGROUND PARALLAX ON HOVER ---
 const rightPanel = document.querySelector('.right-panel');
 
